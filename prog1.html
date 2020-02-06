@@ -1,27 +1,52 @@
 <html>
 	<head>
-		<title>heading example</title> 
+		<title>html table colspan/row span</title> 
 	</head>
-	<body>
-		<center><h1> heading 1</h1></center>
-		<hr/>
-		<h2>heading 2</h2>
-		<h3>heading 3</h3>
-		<h4>heading 4</h4>
-		<h5>heading 5</h5>
-		<h6>heading 6</h6>
-		<p>here is 1st<br/> para of text</p>
-		<p>here is 2nd para of text</p>
-		<p>here is 3rd para of text</p>
-		<pre>
-		 function testFunction(strText){
-		  alter(strText)
-		 }
-		</pre>	
-		<p>
-		 function testFunction(strText){
-		  alter(strText)
-		 }
-		</p>	
+	
+	<body style="background-color:powderblue;">
+		<table border="1"bgcolor="yellow">
+			<tr>
+				<th>Coloumn 1</th>
+				<th>Coloumn 2</th>
+				<th>Coloumn 3</th>
+				<th>Coloumn 4</th>
+			</tr>
+			<tr>
+				<td rowspan="2">row1 cell1</td>
+				<td>row1 cell2</td>
+				<td>row1 cell3</td>
+				<td>row1 cell4</td>
+			</tr>
+			<tr>
+				<td>row2 cell2</td>
+				<td>row2 cell3</td>
+				<td>row2 cell4</td>
+			</tr>		
+			<tr>
+				<td colspan="4">row 3 cell1</td>
+			</tr>	
+		</table>
+		</hr>
+		<font size="1">Font size="1"</font></br>
+		<font size="2">Font size="2"</font></br>	
+		<font size="3">Font size="3"</font></br>	
+		<font size="4">Font size="4"</font></br>	
+		<font size="5">Font size="5"</font></br>	
+		<font size="6">Font size="6"</font></br>	
+		<font size="7">Font size="7"</font></br>	
+		<marquee direction="right">example of marquee</marquee>	
+		
+		<h1 style="background-color:#CD5C5C;">Heading 1<hr></h1>
+		<p style="color:red;">First para</p>
+		<h1  style="font-family:verdana;">Heading 2</h2>
+		<p style="font-family:courier">second para</p>
+		<h1 style="font-size:300%">Heading 3</h3>
+		<p style="font-size:160%">third para</p>
+		<h1 style="text-align:center">Heading 4</h4>
+		<p style="text-align:center">First para</p>
+		<hr>
+		<a href="https://www.google.com/maps">
+			<p><img src="https://cdn3.iconfinder.com/data/icons/unicons-vector-icons-pack/32/location-512.png" alt="location" style="float:right;width:60px;height:60px;border:0">the img will float to the right of the text</p>
+ 		</a>
 	</body>
 </html>
